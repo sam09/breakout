@@ -6,9 +6,9 @@ var ball = {
    
   x: canvas.width/2,
   y: canvas.height-30,
-  dx: 2,
-  dy: -2,    
-  radius: 10,
+  dx: 1.2,
+  dy: -1.2,    
+  radius: canvas.height/40,
   
   draw:function() {
 
@@ -55,8 +55,8 @@ var ball = {
     
 paddle = {    
     
-  height: 10,   
-  width: 75,    
+  height: canvas.height/40,   
+  width: canvas.width/5,    
   x: null,    
   right:false,    
   left:false,   
